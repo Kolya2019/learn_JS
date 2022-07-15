@@ -1,0 +1,30 @@
+body{
+    background-color: aliceblue;
+    margin: 0 0 0 auto;
+    padding: 0;
+    font-family: "Times New Roman";
+    size: 14px;
+}
+div{
+    margin: 10px;
+}
+a{
+    color: red;
+}
+
+a:visited{
+    color:green;
+}
+form{
+
+}
+div input{
+    width: 100%;
+}
+input:focus{
+    background-color:aqua ;
+    color: red;
+}
+.container{
+    width: min(100% - 2rem, 600px);
+}
